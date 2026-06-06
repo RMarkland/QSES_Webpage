@@ -1,0 +1,31 @@
+.view-diversity-liaisons .views-row {
+	clear:both;
+	margin-bottom:40px;
+	display:block;
+	overflow:hidden;
+}
+.view-diversity-liaisons .views-field-field-alumni-photo {
+	margin-bottom:15px;
+}
+.view-diversity-liaisons .views-field-field-alumni-photo img {
+	width:100%;
+	height:auto;
+}
+.view-diversity-liaisons .views-field-field-alumni-school {
+	text-transform:uppercase;
+}
+.view-diversity-liaisons .views-field-body {
+	padding-top:20px;
+}
+
+/*normal width and greater*/
+@media screen and (min-width: 768px) {
+  .view-diversity-liaisons .views-field-field-alumni-photo {
+		float:left;
+		margin-right:40px;
+		margin-bottom:0;
+	}
+	.view-diversity-liaisons .views-field-field-alumni-photo img {
+		width:auto;
+	}
+}

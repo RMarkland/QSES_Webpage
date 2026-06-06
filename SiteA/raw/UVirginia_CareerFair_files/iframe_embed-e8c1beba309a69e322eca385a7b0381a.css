@@ -1,0 +1,16 @@
+/*embedded iframe fix for Firefox, Safari*/
+
+.iframe-container {
+  width: 100%;
+  /* Choose the ratio of your video: 16 / 9 is common for YouTube */
+  aspect-ratio: 16 / 9;
+  position: relative; /* needed if you use absolute positioning for iframe */
+}
+.iframe-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block; /* avoids inline whitespace gaps in some layouts */
+}

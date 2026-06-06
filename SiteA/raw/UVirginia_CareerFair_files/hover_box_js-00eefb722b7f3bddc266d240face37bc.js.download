@@ -1,0 +1,8 @@
+(function ($) { 
+  $('.hoverbox').hover(function(){
+    $( this ).find('.hoverbox-block').fadeToggle();
+    $( this ).find('.hoverbox-image-swap').toggleClass('hidden');
+  });
+}(jQuery));
+
+

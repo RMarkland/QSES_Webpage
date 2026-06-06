@@ -1,0 +1,101 @@
+.hoverbox {
+	position:relative;
+	display:inline-block;
+	padding: 0;
+	width:100%;
+}
+.hoverbox-block {
+  display:block;
+	/*display:none;
+	position:absolute;
+	height:auto;
+	width:100%;
+	left:0;
+	top:0;
+	padding:0;
+	overflow:visible;
+	z-index:1;*/
+}
+.hoverbox-block-inner {
+  position:relative;
+  border:0 none;
+  padding:30px 40px 0;
+  margin:0;
+  z-index:1;
+  
+}
+.hoverbox-block h2, .hoverbox-block h3 {
+  margin:0 0 15px;
+  padding:0;
+  color:#002654;
+  font-size:36px;
+}
+.hoverbox-block p {
+  margin:0;
+  padding:0;
+  color:#002654;
+  font-size:22px;
+}
+.hoverbox a {
+  font-size:0;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hoverbox img {
+ position:relative;
+}
+
+.block-views-block--hover-box-block-1 {
+  margin:0 0 30px;
+  padding-top:30px;
+}
+
+.view-hover-box .view-content {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.view-hover-box .view-content .views-row {
+  width:90%;
+  margin-bottom:30px;
+}
+#block-hpintrotext {
+  padding:40px 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 960px) {
+  .hoverbox-block {
+  	display:none;
+  	position:absolute;
+  	height:auto;
+  	width:100%;
+  	left:0;
+  	top:0;
+  	padding:0;
+  	overflow:visible;
+  	z-index:1;
+  	border:0 none;
+    padding-top:0;
+    background:none;
+  }
+  .hoverbox-block h2, .hoverbox-block h3 {
+    color:#fff;
+  }
+  .hoverbox-block p {
+    color:#fff;
+  }
+  .view-hover-box .view-content .views-row {
+    width:45%;
+  }
+
+}

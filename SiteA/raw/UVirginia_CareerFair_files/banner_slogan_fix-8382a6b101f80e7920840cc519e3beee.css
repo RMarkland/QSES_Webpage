@@ -1,0 +1,161 @@
+/*mobile styles first*/
+
+#block-maincareerbannerwithbuttons {
+  position:relative;
+}
+#block-maincareerbannerwithbuttons .field--name-field-masthead-image img {
+  width:100%;
+  height:auto;
+}
+#block-maincareerbannerwithbuttons .field--name-body {
+  position:absolute;
+  top:15px;
+  width:100%;
+  text-align:center;
+}
+#block-maincareerbannerwithbuttons .field--name-body .title-wrapper {
+  width:100%;
+  margin:0 20px;
+}
+
+#block-maincareerbannerwithbuttons .field--name-body .title-wrapper h1.homepage,
+#block-maincareerbannerwithbuttons .field--name-body .title-wrapper .site-name {
+  margin:0;
+  padding:0;
+  font-size:36px;
+  font-weight:500;
+  font-family: "franklin-gothic-urw", Arial, sans-serif;
+}
+#block-maincareerbannerwithbuttons .field--name-body .title-wrapper h1.homepage {
+  display:none;
+}
+.path-frontpage #block-maincareerbannerwithbuttons .field--name-body .title-wrapper h1.homepage {
+  display:block;
+}
+.path-frontpage #block-maincareerbannerwithbuttons .field--name-body .title-wrapper .site-name {
+  display:none;
+}
+
+#block-maincareerbannerwithbuttons .field--name-body .title-wrapper h1.homepage a, #block-maincareerbannerwithbuttons .field--name-body .title-wrapper .site-name a {
+  color:#fff;
+  text-decoration:none;
+}
+#block-maincareerbannerwithbuttons .field--name-field-masthead-l {
+  display:flex;
+  flex-wrap:wrap;
+  width:90%;
+  margin:20px auto 0;
+}
+#block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item {
+  width:100%;
+  margin: 0 auto 5%;
+}
+
+#block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item a {
+  border: 1px solid #e57200;
+  color: #e57200;
+  display: block;
+  font-size: 1.17188rem;
+  font-weight: 700;
+  padding: 1.5em 1.5625em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background:#fff;
+}
+#block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item a::after {
+  background-color: #e57200;
+  bottom: 0;
+  content: '';
+  height: 16px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 35%;
+}
+#block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item a:hover::after {
+  background-color:#232D4B;
+}
+
+.block-system-branding-block .site-slogan {
+    width:100%;
+    font-size:24px;
+    margin-top:-0.75em;
+    margin-bottom:1em;
+}
+
+/* On screens that are 600px or more */
+@media screen and (min-width: 600px) {
+  
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-image img {
+    height: 400px;
+    object-fit:cover;
+    width:100%;
+  }
+  
+}
+/* On screens that are 960px or more */
+@media screen and (min-width: 960px) {
+  #block-maincareerbannerwithbuttons .field--name-body {
+    position:absolute;
+    top:37px;
+    width:100%;
+    text-align:left;
+  }
+  #block-maincareerbannerwithbuttons .field--name-body .title-wrapper {
+    width:900px;
+    margin:0 auto;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l {
+    display:flex;
+    flex-wrap:wrap;
+    width:960px;
+    margin:-30px auto 30px;
+    z-index:10;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    margin-bottom: 0;
+    margin-right: 3%;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item:nth-of-type(3n) {
+    margin-right:0;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item a {
+    padding: 2.5em 1.5625em;
+  }
+}
+/* On screens that are 1200px or more */
+@media screen and (min-width: 1200px) {
+  #block-maincareerbannerwithbuttons .field--name-body {
+    position:absolute;
+    top:37px;
+    margin:0;
+    width:100%;
+  }
+  #block-maincareerbannerwithbuttons .field--name-body .title-wrapper {
+    min-width:1070px;
+    max-width: 66.4375em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin:0 auto;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l {
+    display:flex;
+    flex-wrap:wrap;
+    width:1070px;
+    margin:-30px auto 30px;
+    z-index:10;
+  }
+  #block-maincareerbannerwithbuttons .field--name-field-masthead-l .field__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    margin-bottom: 0;
+    margin-right: 5%;
+  }
+}

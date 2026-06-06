@@ -1,0 +1,27 @@
+.view-display-id-event_view_page .views-field-field-link, 
+.view-display-id-event_archive_view_page .views-field-field-link, 
+.view-events-fac-events.view-display-id-page_1 .views-field-field-link, 
+.view-events-fac-events.view-display-id-page_2 .views-field-field-link {
+  font-size:1.3em;
+  margin-bottom:1.375em;
+  text-decoration:none;
+}
+.view-display-id-event_view_page .views-field-field-link a, 
+.view-display-id-event_archive_view_page .views-field-field-link a, 
+.view-events-fac-events.view-display-id-page_1 .views-field-field-link a, 
+.view-events-fac-events.view-display-id-page_2 .views-field-field-link a {
+  text-decoration:none;
+  color:#232d4b;
+}
+.view-display-id-event_view_page .views-field-field-link a:hover, 
+.view-display-id-event_archive_view_page .views-field-field-link a:hover, 
+.view-events-fac-events.view-display-id-page_1 .views-field-field-link a:hover, 
+.view-events-fac-events.view-display-id-page_2 .views-field-field-link a:hover {
+  text-decoration:underline;
+}
+
+.hp-event-list .views-field-field-start-date {
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-bottom:5px;
+}

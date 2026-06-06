@@ -1,0 +1,6 @@
+(function ($) {
+  jQuery(document).ready(function(){
+    $('h1').slice(1).add();
+    $('h1.pagetitle').add();
+  });
+}(jQuery));

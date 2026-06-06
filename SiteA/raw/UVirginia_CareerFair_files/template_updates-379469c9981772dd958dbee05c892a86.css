@@ -1,0 +1,49 @@
+/* Basic Page Sidebar Menu */
+.region--sidebar-first .sidebar-menu.block-menu #block-mainnavigation-menu a {
+  font-size: 24px;
+}
+
+/* Navigation Button Border Bottom */
+.horizontal-menu > li > a {
+  padding: 0;
+  margin: 0 0.9375rem;
+}
+
+/* Sub-page Menu Arrow Fix */
+.menu-direction-indicator {
+  border-bottom: none !important;
+}
+
+/* Button Fix */
+.btn-tertiary {
+  font-size: 24px;
+}
+.section-content h1.page-title {
+  background:url("https://career.uva1acsf.acsitefactory.com/sites/g/files/jsddwu971/files/2022-12/page-title-underline-2.png") no-repeat;
+  background-position:bottom left;
+  padding-bottom:10px;
+}
+
+/* Styled Page Titles */
+/*#block-pagetitle {
+  display:flex;
+  justify-content:center;
+}
+h1.page-title {
+  align-self: center;
+  background-color: #979797;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 1px;
+}
+h1.page-title .field--name-title {
+  padding-right:20px;
+  border-right:1px solid #ccc;
+}
+*/
+
+h1 {
+  clear:both;
+  display:block;
+}

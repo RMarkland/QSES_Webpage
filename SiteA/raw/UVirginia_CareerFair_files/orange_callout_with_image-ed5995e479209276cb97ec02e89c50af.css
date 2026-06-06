@@ -1,0 +1,97 @@
+.block-layout-builder.block-inline-block--orange-callout-with-image {
+  background:#495E9D;
+  position:relative;
+  padding:0;
+  width:100%;
+  overflow:hidden;
+}
+.block-layout-builder.block-inline-block--orange-callout-with-image:hover {
+  opacity:0.9;
+}
+.block-inline-block--orange-callout-with-image .banner-wrapper {
+  position:relative;
+  color:#fff;
+  font-size:20px;
+  line-height:1.1em;
+}
+.block-inline-block--orange-callout-with-image .col-wrapper {
+  width:100%;
+  padding:20px 0;
+  text-align:center;
+}
+.block-inline-block--orange-callout-with-image .text-wrapper {
+  width:100%;
+  color:#fff;
+  text-align:center;
+  padding-bottom:20px;
+}
+.block-inline-block--orange-callout-with-image .text-wrapper p {
+  line-height:1.1em;
+}
+.block-inline-block--orange-callout-with-image .field--name-field-callout-image {
+  width:auto;
+}
+.block-inline-block--orange-callout-with-image .field--name-field-callout-image img {
+  width:100%;
+  height:auto;
+}
+.block-inline-block--orange-callout-with-image .field--name-field-callout-title {
+  font-size:36px;
+  font-weight:500;
+  padding:30px 0 20px;
+  text-align:center;
+}
+.block-inline-block--orange-callout-with-image .field--name-field-callout-link a {
+  display:block;
+  font-size:0;
+  position:absolute;
+  z-index:999;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+/* On screens that are 600px or more */
+@media screen and (min-width: 600px) {
+  
+}
+/* On screens that are 600px or more */
+@media screen and (min-width: 1100px) {
+  .block-layout-builder.block-inline-block--orange-callout-with-image {
+    background:#495E9D;
+    position:relative;
+    padding:0;
+    width:100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    overflow:hidden;
+  }
+  .block-inline-block--orange-callout-with-image .banner-wrapper {
+    width:1100px;
+    margin:0 auto;
+  }
+  .block-inline-block--orange-callout-with-image .col-wrapper {
+    width:600px;
+    padding:20px 0 0;
+    text-align:left;
+  }
+  .block-inline-block--orange-callout-with-image .text-wrapper {
+    width:auto;
+    float:left;
+    border-right:1px solid white;
+    color:#fff;
+    text-align:right;
+    padding-right:20px;
+    margin-right:20px;
+  }
+  .block-inline-block--orange-callout-with-image .field--name-field-callout-image {
+    float:right;
+    width:auto;
+  }
+  .block-inline-block--orange-callout-with-image .field--name-field-callout-image img {
+    height:225px;
+    width:auto;
+    padding-bottom:0;
+  }
+}

@@ -1,0 +1,424 @@
+/* _print.scss */
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@import 'https://use.typekit.net/tgy5tlj.css';
+/*******************************************
+****  Current Fonts.com for reference only ******
+********************************************
+
+$font-family-sans-serif:  'ITC Franklin Gothic LT W01 Bk', Arial, sans-serif;
+$font-family-sans-serif-alt: Arial, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-base:        $font-family-sans-serif;
+
+$font-family-cond: 'ITC Franklin Gothic LT W01 BkC', sans-serif;
+$font-family-demi:  "ITC Franklin Gothic LT W01 Dm", Arial,sans-serif;
+$font-family-demicond:  "ITC Franklin Gothic LT W01DmCn", Arial,sans-serif;
+$font-family-demiital:  "ITC Franklin Gothic LT W01DmIt", Arial,sans-serif;
+$font-family-demicondital:  "ITC Franklin GothicLTW01DmCnIt", Arial,sans-serif;
+$font-family-medium: 'ITC Franklin Gothic LT W01 Md', Arial, sans-serif;
+$font-family-heavy:  "ITC Franklin Gothic LT W01 Hv", "ITC Franklin Gothic LT W01 Dm", sans-serif;
+$font-family-compressed: 'ITC Franklin Gothic LT W01 BkC', Arial, sans-serif;
+$font-family-demicompressed: "ITC Franklin Gothic LT W01 DmC", "ITC Franklin Gothic LT W01 Dm", Arial, sans-serif;
+$font-family-demicompital: "ITC Franklin Gothic LTW01DmCmI", sans-serif;
+$font-family-demiextracomp: "ITC Franklin Gothic LT W01DmXC", sans-serif;
+
+
+$font-family-bodoni:  'BodoniW01-PosterItalic', serif;
+$font-family-bodoniitalic:  'BodoniW01-PosterItalic', serif;
+$font-family-page-header: 'ITC Franklin Gothic LT W01DmCn', serif;
+*/
+@-webkit-keyframes scale-star-compact {
+  0% {
+    background-size: 1.0625em;
+  }
+  100% {
+    background-size: 350%;
+  }
+}
+@keyframes scale-star-compact {
+  0% {
+    background-size: 1.0625em;
+  }
+  100% {
+    background-size: 350%;
+  }
+}
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster:
+   http://www.sanbeiji.com/archives/953 */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    font-weight: 700 !important;
+    font-style: italic;
+    margin-top: 0.9375rem !important;
+    margin-bottom: 0.9375rem !important;
+    page-break-inside: avoid;
+    font-size: 12pt;
+  }
+  pre *,
+  blockquote * {
+    font-size: 12pt;
+  }
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+  tr {
+    border-bottom: 1px solid #ebebeb !important;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  html, body {
+    font-size: 10pt;
+    line-height: 16pt;
+  }
+  * {
+    font-size: 10pt !important;
+    line-height: 16pt !important;
+  }
+  body {
+    padding: 1em;
+  }
+  main,
+  .layout-container,
+  .region,
+  .block {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    max-width: none !important;
+  }
+  .site-name {
+    font-weight: 700;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-indent: 0 !important;
+    margin-bottom: 0.9375rem;
+    margin-top: 2.1875rem;
+    display: block !important;
+    width: 100%;
+  }
+  ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  .table-container {
+    position: static !important;
+    overflow: visible !important;
+    max-width: 100% !important;
+  }
+  table {
+    max-width: 100% !important;
+    border: 1px solid #000 !important;
+    table-layout: fixed !important;
+  }
+  table span {
+    display: inline-block !important;
+    max-width: 100% !important;
+  }
+  table * {
+    max-width: 100% !important;
+    border-color: #000 !important;
+  }
+  table caption {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #000;
+  }
+  table th:not(:last-child) {
+    border-right: 1px solid #000;
+  }
+  table td:not(:last-child) {
+    border-right: 1px solid #000;
+  }
+  table thead {
+    display: table-header-group !important;
+    -webkit-column-break-inside: auto;
+       page-break-inside: auto;
+            break-inside: auto;
+  }
+  table tfoot {
+    display: table-row-group !important;
+  }
+  table tr {
+    page-break-inside: avoid !important;
+  }
+  table th {
+    text-align: left;
+  }
+  form {
+    display: block !important;
+  }
+  h1,
+  #page-title {
+    font-weight: bold;
+    font-size: 22pt !important;
+    line-height: 28pt !important;
+  }
+  h1 span,
+  #page-title span {
+    font-weight: bold;
+    font-size: 22pt !important;
+    line-height: 28pt !important;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 18pt !important;
+    line-height: 24pt !important;
+  }
+  h2 a {
+    font-size: 18pt !important;
+    line-height: 24pt !important;
+  }
+  h2 span {
+    font-weight: bold;
+    font-size: 18pt !important;
+    line-height: 24pt !important;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 16pt !important;
+    line-height: 20pt !important;
+  }
+  h3 a {
+    font-size: 16pt !important;
+    line-height: 20pt !important;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 14pt !important;
+    line-height: 18pt !important;
+  }
+  h4 a {
+    font-size: 14pt !important;
+    line-height: 18pt !important;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 12pt !important;
+    line-height: 16pt !important;
+  }
+  h5 a {
+    font-size: 12pt !important;
+    line-height: 16pt !important;
+  }
+  h5, h6 {
+    font-weight: bold;
+  }
+  strong {
+    font-weight: 700;
+  }
+  body {
+    padding-top: 0.8125rem !important;
+  }
+  .layout-container {
+    max-width: none;
+  }
+  .print--letterhead {
+    display: block !important;
+  }
+  .masthead {
+    display: none !important;
+  }
+  #masthead-actions {
+    display: none !important;
+  }
+  .region--masthead-primary {
+    width: 100% !important;
+    height: auto !important;
+    padding-bottom: 2.1875rem !important;
+    border-bottom: 0 !important;
+    padding-top: 1.25rem !important;
+  }
+  .region--masthead-primary .region-inner {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .menu-toggle-wrapper {
+    display: none !important;
+  }
+  .region--masthead-secondary {
+    display: none !important;
+  }
+  .dialog-off-canvas-main-canvas {
+    padding-top: 0 !important;
+  }
+  #block-horizontalmenu {
+    display: none !important;
+  }
+  .block-admin-units.block-ogc-sidebar-menu,
+  .region--sidebar-first .block-menu,
+  .region--sidebar-first .block--menu {
+    display: none !important;
+  }
+  .block-system-branding-block {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .block-system-branding-block .site-logo {
+    position: relative;
+    width: 100%;
+  }
+  .block-system-branding-block .site-logo::before {
+    display: block;
+  }
+  .block-system-branding-block .site-logo .logo--default {
+    display: none !important;
+  }
+  .block-system-branding-block .site-logo .logo--print {
+    display: block !important;
+  }
+  .block-system-branding-block .print-logo {
+    display: block;
+  }
+  .block-system-branding-block .site-name a {
+    font-size: 1.25rem !important;
+  }
+  #block-de-theme-local-tasks {
+    display: none !important;
+  }
+  .block-system-breadcrumb-block {
+    display: none !important;
+  }
+  .section-content {
+    clear: both;
+    padding-top: 2.1875em !important;
+  }
+  .region-content-wrapper {
+    padding: 0 !important;
+  }
+  #footer {
+    display: none;
+  }
+  .pager {
+    display: none !important;
+  }
+  .more-link {
+    display: none !important;
+  }
+  .sidebar-menu {
+    display: none !important;
+  }
+  .messages {
+    display: none !important;
+  }
+  .field--name-body img {
+    display: none !important;
+  }
+  .section-row {
+    opacity: 1 !important;
+  }
+  .mm-page {
+    padding-top: 0 !important;
+  }
+  .search-toggle-wrapper {
+    display: none !important;
+  }
+  .block-ogc-search-global-search-block {
+    display: none !important;
+  }
+  .block-facets {
+    display: none !important;
+  }
+  .search-view .view-header {
+    display: none !important;
+  }
+  .search-view .view-filters {
+    display: none !important;
+  }
+  .template--accordion {
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
+  }
+  .template--accordion > h2 {
+    padding: 0 !important;
+    margin-bottom: 0.9375rem !important;
+    margin-top: 2.1875rem !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+  .template--accordion > h2:focus {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+  .template--accordion > h2::after {
+    display: none !important;
+  }
+  .template--accordion .accordion-content {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+  }
+  .print-button {
+    display: none !important;
+  }
+  .iframe-container {
+    display: none !important;
+  }
+  .video-embed-field-responsive-video {
+    display: none !important;
+  }
+  .embedded-entity {
+    display: none !important;
+  }
+  .template--fancy-list .item-number {
+    font-size: 36pt !important;
+    line-height: 36pt !important;
+  }
+  .node--type-cta {
+    display: none !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=maps/print.css.map */

@@ -1,0 +1,44 @@
+.categorized-staff-block.view-person .view-content .views-row {
+    margin-bottom:20px;
+}
+.categorized-staff-block.view-person .view-content .views-row img {
+  width:100%;
+  height:auto;
+}
+.categorized-staff-block .views-field-field-phone {
+    padding-bottom:15px;
+}
+
+/*Sponsor people page */
+
+.view-person.sponsors-view .view-content .views-row .views-field .field-content {
+  padding-top:20px;
+}
+.view-person.sponsors-view .view-content .views-row {
+  margin-bottom: 2.175em;
+}
+.sponsors-view .views-field-title {
+  padding-top:15px;
+}
+.sponsors-view .views-field-title a {
+  text-decoration:none;
+  font-size:18px;
+  font-weight:bold;
+  padding:5px 0;
+}
+.sponsors-view .views-field-title a:hover {
+  text-decoration:underline;
+}
+.sponsors-view .views-field-field-company-website {
+  padding:5px 0 0;
+}
+.sponsors-view .views-field-field-company-website a::after {
+  content:" >>";
+}
+
+@media screen and (min-width: 960px) {
+  .categorized-staff-block.view-person .view-content .views-row {
+    width:23%;
+  }
+  
+}

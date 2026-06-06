@@ -1,0 +1,31 @@
+footer a {
+  color:#fff;
+}
+footer a:hover {
+  text-decoration:none;
+  color:#fff;
+}
+footer .align-left {
+  margin-right:20px;
+}
+#block-footerwhitelogo {
+  text-align:center;
+}
+#block-footerwhitelogo img {
+  margin:0 auto;
+}
+footer .icons a {
+  display:inline-block;
+  padding:0 10px;
+  vertical-align:middle;
+  float:left;
+}
+footer .field--name-body {
+  text-align:center;
+}
+footer .field--name-body img {
+  margin:0 auto;
+}
+.region--footer-second {
+  padding-top:0;
+}

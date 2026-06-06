@@ -1,0 +1,8 @@
+.news-filtered-block {
+  margin-bottom:80px;
+}
+
+.block-views-block--articles-in-the-news-block-1.block .view-content .views-row,
+.block-views-block--articles-in-the-news-block-1.block .view-header {
+	border-bottom:0 none;
+}

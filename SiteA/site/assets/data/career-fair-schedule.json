@@ -1,0 +1,42 @@
+[
+  {
+    "time": "9:00 - 9:30",
+    "event": "Breakfast and registration",
+    "location": "MPR A/B, Lobby"
+  },
+  {
+    "time": "9:30 - 10:00",
+    "event": "Intro, keynote, and Q&A",
+    "location": "MPR A/B"
+  },
+  {
+    "time": "10:00 - 12:00",
+    "event": "Industry tabling",
+    "location": "MPR C"
+  },
+  {
+    "time": "12:00 - 1:00",
+    "event": "Lunch",
+    "location": "MPR A/B"
+  },
+  {
+    "time": "1:00 - 2:00",
+    "event": "Industry panel: what the future of the quantum workforce needs",
+    "location": "MPR A/B"
+  },
+  {
+    "time": "2:00 - 3:00",
+    "event": "Poster session",
+    "location": "MPR C"
+  },
+  {
+    "time": "3:00 - 4:00",
+    "event": "Lab tours",
+    "location": "Scattered labs"
+  },
+  {
+    "time": "4:00 - 4:30",
+    "event": "Sendoff",
+    "location": "TBD"
+  }
+]

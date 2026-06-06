@@ -1,0 +1,19 @@
+@media print {
+  .layout {
+    display: inline;
+  }
+  
+  .layout .layout__region .block {
+    padding: 0;
+  }
+  
+  .layout--twocol-50-50-full-width {
+    left: unset;
+    right: unset;
+  }
+}
+
+.layout--twocol-50-50-full-width .layout__region .block {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}

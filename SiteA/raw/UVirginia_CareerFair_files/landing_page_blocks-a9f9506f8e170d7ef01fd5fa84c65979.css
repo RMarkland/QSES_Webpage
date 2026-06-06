@@ -1,0 +1,19 @@
+.block-inline-block--explore-landing-page-block .field--name-image {
+  
+}
+.block-inline-block--explore-landing-page-block .field--name-field-explore-backround-image {
+  position:relative;
+  z-index:1;
+  max-width:400px;
+}
+.block-inline-block--explore-landing-page-block .field--name-body {
+  position:absolute;
+  top:20px;
+  left:1%;
+  right:1%;
+  border:1px solid red;
+  width:250px;
+  z-index:10;
+  font-size:22px;
+  color:#fff;
+}
