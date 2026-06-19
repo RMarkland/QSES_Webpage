@@ -22,7 +22,7 @@ Then visit `http://localhost:8000`.
 - `site/`: public static website scaffold.
 - `site/about/`: About, Members, Events, and Funding section pages.
 - `site/research/`: member research page.
-- `site/CareerFair/`: combined employer- and student-facing QSE Career Fair page, including schedule, exhibitor fees, sponsorships, registration, and FAQ.
+- `site/career-fair/`: combined employer- and student-facing QSE Career Fair page, including schedule, exhibitor fees, sponsorships, registration, and FAQ.
 - `site/assets/data/`: curated public data extracted from the raw materials.
 - `site/assets/css/styles.css`: shared visual system.
 - `site/assets/js/main.js`: small progressive enhancement script.

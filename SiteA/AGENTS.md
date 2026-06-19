@@ -41,7 +41,7 @@ Keep the public site focused and easy to scan:
 - `site/about/events/index.html`: QSES club events and accomplishments.
 - `site/research/index.html`: member research page, currently under construction.
 - `site/about/funding/index.html`: fellowship opportunities and application help, currently under construction.
-- `site/CareerFair/index.html`: primary career fair landing page for employers and students, including registration areas and the fair schedule. Do not create a separate public career fair schedule page unless explicitly requested.
+- `site/career-fair/index.html`: primary career fair landing page for employers and students, including registration areas and the fair schedule. Do not create a separate public career fair schedule page unless explicitly requested.
 - `site/contact/index.html`: general contact and social links.
 
 Top-level navigation should stay restrained: `Home`, `Career Fair`, `Research`, and `Contact`. Put About, Members, Events, and Funding under the Home dropdown, and all employer and student fair content under the Career Fair dropdown.
