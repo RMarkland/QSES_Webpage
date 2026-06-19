@@ -38,6 +38,7 @@
 
 ## Technical Checks
 
+- Confirm the restored `deploy-pages.yml` GitHub Pages workflow completes successfully.
 - Confirm the new top-level `CareerFair/` and `research/` routes work after deployment.
 - Validate all internal links.
 - Confirm external social links still work.
