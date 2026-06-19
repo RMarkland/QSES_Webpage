@@ -4,43 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Register for the University of Delaware QSE Career Fair and connect with graduate quantum science and engineering talent.">
-    <title>QSE Career Fair | Employers</title>
+    <title>QSE Career Fair | QSES</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="../index.html" aria-label="QSES home">
-        <span class="brand-logos">
+      <div class="brand">
+        <a class="brand-home" href="../index.html" aria-label="QSES home"><span class="brand-logos">
           <img class="brand-logo" src="../assets/images/No%20Words.png" alt="" aria-hidden="true">
           <img class="brand-logo ud-logo" src="../assets/images/ud-monogram-2018.png" alt="" aria-hidden="true">
+        </span></a>
+        <span class="brand-text">
+          <a class="brand-name" href="../index.html"><strong><span>Quantum Science and Engineering Society</span></strong></a>
+          <small><a href="https://www.udel.edu/">University of Delaware</a></small>
         </span>
-        <span>
-          <strong>Quantum Science and Engineering Society</strong>
-          <small>University of Delaware</small>
-        </span>
-      </a>
+      </div>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <div class="nav-menu">
           <a href="../index.html">Home</a>
           <div class="dropdown">
             <a href="../index.html">Home</a>
-            <a href="../about/index.html">QSES Home</a>
+            <a href="../about/index.html">About</a>
             <a href="../about/members/index.html">Members</a>
             <a href="../about/events/index.html">Events</a>
             <a href="../about/funding/index.html">Funding</a>
           </div>
         </div>
-        <a href="../students/index.html">Students</a>
         <div class="nav-menu">
-          <a href="index.html" aria-current="page">Employers</a>
+          <a href="index.html" aria-current="page">Career Fair</a>
           <div class="dropdown">
             <a href="index.html" aria-current="page">Career Fair Overview</a>
+            <a href="#students">Student Registration</a>
             <a href="#packages">Sponsorship Options</a>
             <a href="#schedule">Schedule</a>
             <a href="#registration">Registration</a>
           </div>
         </div>
+        <a href="../research/index.html">Research</a>
         <a href="../contact/index.html">Contact</a>
       </nav>
     </header>
@@ -48,17 +49,18 @@
     <main>
       <section class="hero employer-hero">
         <div class="hero-copy">
-          <p class="eyebrow">University of Delaware Quantum Science and Engineering Program</p>
-          <h1>QSE Career Fair</h1>
-          <p class="lead">Meet graduate-level quantum talent across materials science, electrical engineering, computer science, physics, and related fields.</p>
+          <p class="eyebrow"><a href="https://www.udel.edu/academics/colleges/grad/prospective-students/programs/interdisciplinary/quantum-science-engineering/">University of Delaware Quantum Science and Engineering Program</a></p>
+          <h1>Q-SPIN Career Fair</h1>
+          <p class="lead">Meet graduate-level quantum talent across materials science, electrical engineering, computer science, physics, and related fields at the Quantum, Semiconductors, and Photonics Industry (Q-SPIN) Career Fair.</p>
           <dl class="event-meta">
-            <div><dt>Date</dt><dd>Date to be announced</dd></div>
+            <div><dt>Date</dt><dd>Friday, October 30th, 2026</dd></div>
             <div><dt>Location</dt><dd>Trabant University Center, MPR A/B/C</dd></div>
-            <div><dt>Format</dt><dd>Tabling, panel, posters, and lab tours</dd></div>
+            <div><dt>Format</dt><dd>Tabling, industry panel, and poster session</dd></div>
           </dl>
           <div class="cta-row">
+            <a class="button secondary" href="#students">Register Yourself</a>
             <a class="button primary" href="#registration">Register Your Company</a>
-            <a class="button secondary" href="#packages">View Sponsorship Options</a>
+            <a class="button tertiary" href="#packages">View Sponsorship Options</a>
           </div>
         </div>
         <aside class="hero-panel">
@@ -72,20 +74,18 @@
         </aside>
       </section>
 
-      <section class="section" id="audience">
+      <section class="section career-summary" id="audience">
         <div class="section-heading">
           <p class="eyebrow">Audience Statistics</p>
           <h2>Designed for focused technical recruiting.</h2>
         </div>
-        <dl class="stat-list">
+        <dl class="stat-list stat-list-clean">
           <div><dt>150</dt><dd>Target student attendees</dd></div>
-          <div><dt>15</dt><dd>Faculty and staff attendees</dd></div>
-          <div><dt>22</dt><dd>Company attendees</dd></div>
-          <div><dt>187</dt><dd>Full-scale projected attendance</dd></div>
+          <div><dt>15</dt><dd>Companies attending</dd></div>
         </dl>
       </section>
 
-      <section class="section">
+      <section class="section career-summary employer-benefits">
         <div class="section-heading">
           <p class="eyebrow">Employer Benefits</p>
           <h2>Build visibility with a specialized talent pool.</h2>
@@ -101,45 +101,71 @@
           </article>
           <article class="card">
             <h3>See Research Up Close</h3>
-            <p>Connect through poster sessions and lab tours that make student research more tangible than a resume-only interaction.</p>
+            <p>Connect through student research posters that make technical work more tangible than a resume-only interaction.</p>
           </article>
         </div>
       </section>
 
       <section class="section" id="packages">
         <div class="section-heading">
-          <p class="eyebrow">Employer Package Tiers</p>
-          <h2>Clear options for recruiting and sponsorship.</h2>
+          <p class="eyebrow">Exhibitor Registration</p>
+          <h2>Choose the organization category that fits your team.</h2>
+        </div>
+        <div class="card-grid four">
+          <article class="card package">
+            <p class="package-price">$200</p>
+            <h3>For-Profit Employers</h3>
+            <p>For employers working in quantum science, engineering, and adjacent technical fields.</p>
+          </article>
+          <article class="card package">
+            <p class="package-price">$75</p>
+            <h3>Government and Nonprofit</h3>
+            <p>For government agencies, national laboratories, and nonprofit organizations.</p>
+          </article>
+          <article class="card package">
+            <p class="package-price">$50</p>
+            <h3>Startups and Affiliates</h3>
+            <p>For early-stage companies and affiliated organizations.</p>
+          </article>
+          <article class="card package">
+            <p class="package-price">$25</p>
+            <h3>Academic Institutions</h3>
+            <p>For academic institutions and graduate program recruiters.</p>
+          </article>
+        </div>
+        <p class="note package-note">Registration includes one 6-foot table, two chairs, wireless internet, a tablecloth, two parking passes, and admission for two representatives. Additional representatives are $25 each. Organizations may bring a branded tablecloth, standing banner, promotional materials, and swag. Please indicate whether electrical access is needed when registering.</p>
+        <div class="section-heading sponsorship-heading">
+          <p class="eyebrow">Sponsorship Opportunities</p>
+          <h2>Build a larger presence at the fair.</h2>
         </div>
         <div class="card-grid three">
           <article class="card package">
-            <p class="package-price">$350</p>
-            <h3>Standard Employer</h3>
-            <p>Recommended for quantum companies, big tech quantum teams, suppliers, and semiconductor or photonics employers.</p>
+            <p class="package-price">$500</p>
+            <h3>Ground State</h3>
             <ul>
-              <li>Career fair table</li>
-              <li>Breakfast and lunch access</li>
-              <li>Panel and poster session access</li>
+              <li>Logo on the event website, materials, and signage</li>
+              <li>Social media advertising</li>
+              <li>Priority tabling</li>
             </ul>
           </article>
           <article class="card package featured">
-            <p class="package-price">$500</p>
-            <h3>Strategic Recruiting Partner</h3>
-            <p>Proposed option for larger organizations seeking deeper visibility with QSE students.</p>
+            <p class="package-price">$750</p>
+            <h3>Excited State</h3>
+            <p>Three sponsorships available.</p>
             <ul>
-              <li>Standard employer benefits</li>
-              <li>Preferred placement when space allows</li>
-              <li>Recognition in event materials</li>
+              <li>Larger logo placement</li>
+              <li>Named career fair tabling, industry panel, or poster session</li>
             </ul>
           </article>
           <article class="card package">
             <p class="package-price">$1,500</p>
-            <h3>Event Sponsor</h3>
-            <p>Support student access, event food, printing, and programming while building brand presence.</p>
+            <h3>Entangled State</h3>
+            <p>One sponsorship available.</p>
             <ul>
-              <li>Sponsor recognition</li>
-              <li>Priority panel consideration</li>
-              <li>Expanded visibility before the event</li>
+              <li>All benefits from previous tiers</li>
+              <li>Poster boards in attendee and exhibitor lunch spaces</li>
+              <li>Named keynote session and brief introductory address</li>
+              <li>Prime tabling location</li>
             </ul>
           </article>
         </div>
@@ -156,8 +182,7 @@
           <li><time>10:00 - 12:00</time><span>Industry tabling</span><strong>MPR C</strong></li>
           <li><time>12:00 - 1:00</time><span>Lunch</span><strong>MPR A/B</strong></li>
           <li><time>1:00 - 2:00</time><span>Industry panel: what the future quantum workforce needs</span><strong>MPR A/B</strong></li>
-          <li><time>2:00 - 3:00</time><span>Poster session</span><strong>MPR C</strong></li>
-          <li><time>3:00 - 4:00</time><span>Lab tours</span><strong>Scattered labs</strong></li>
+          <li><time>2:00 - 4:00</time><span>Poster session</span><strong>MPR C</strong></li>
           <li><time>4:00 - 4:30</time><span>Sendoff</span><strong>TBD</strong></li>
         </ol>
       </section>
@@ -190,11 +215,11 @@
           </details>
           <details>
             <summary>Is the registration link live?</summary>
-            <p>The public registration link is still coming soon in this scaffold. Replace this answer once the final form or Handshake link is confirmed.</p>
+            <p>Employer registration is coming soon. Student Handshake and external Google Form registration links will also be posted when available.</p>
           </details>
           <details>
             <summary>Are national labs charged the same fee?</summary>
-            <p>The planning spreadsheet lists government and national lab participation at $0. Confirm this policy before publishing final registration terms.</p>
+            <p>Government and nonprofit employers may register for $75, including admission for two representatives. Each additional representative is $25.</p>
           </details>
         </div>
       </section>
@@ -205,6 +230,26 @@
         <div class="cta-row center">
           <a class="button primary" href="../contact/index.html">Register Your Company</a>
           <a class="button secondary" href="#packages">View Sponsorship Options</a>
+        </div>
+      </section>
+
+      <section class="section student-registration" id="students">
+        <div class="section-heading">
+          <p class="eyebrow">Student Registration</p>
+          <h2>Attend the career fair and share your research.</h2>
+          <p>Meet employers across quantum computing, photonics, semiconductor hardware, national laboratories, defense, and related fields. Students may also participate in the poster session to discuss their work with technical recruiters and research partners.</p>
+        </div>
+        <div class="card-grid two">
+          <article class="card signup-card">
+            <h3>University of Delaware Students</h3>
+            <p>UD students will register internally through Handshake.</p>
+            <span class="button primary" aria-disabled="true">Handshake Link Coming Soon</span>
+          </article>
+          <article class="card signup-card">
+            <h3>Students From Other Institutions</h3>
+            <p>External students will register through a dedicated Google Form.</p>
+            <span class="button secondary" aria-disabled="true">Google Form Coming Soon</span>
+          </article>
         </div>
       </section>
     </main>

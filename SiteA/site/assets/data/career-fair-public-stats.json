@@ -1,11 +1,16 @@
 {
   "targetStudentAttendees": 150,
-  "targetFacultyStaffAttendees": 15,
-  "targetCompanyAttendees": 22,
-  "projectedFullScaleAttendance": 187,
-  "targetCompanyCount": 17,
-  "standardEmployerFee": 350,
-  "proposedCompanyParticipationFunds": 5350,
-  "estimatedFullScaleCost": 4586.64,
-  "estimatedBareBonesCost": 3670.25
+  "targetCompanyCount": 15,
+  "employerFees": {
+    "forProfit": 200,
+    "governmentNonprofit": 75,
+    "startupAffiliate": 50,
+    "academicGraduateRecruiter": 25,
+    "additionalRepresentative": 25
+  },
+  "sponsorshipTiers": {
+    "groundState": 500,
+    "excitedState": 750,
+    "entangledState": 1500
+  }
 }

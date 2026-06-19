@@ -2,13 +2,12 @@
 
 ## Must Resolve Before Launch
 
-- Confirm the official QSE Career Fair event date and replace `Date to be announced` on the employer page.
+- Confirm the displayed QSE Career Fair date: `Friday, October 30th, 2026`.
 - Create or confirm the employer registration link, then update all `Register Your Company` CTAs.
-- Replace the FAQ note that says the public registration link is still coming soon.
+- Replace the employer registration placeholder and update the registration FAQ when the link is live.
 - Confirm the published member bios and headshots are approved by the current QSES board before launch.
 - Confirm the final public contact email or form for QSES and employer inquiries.
-- Confirm whether national labs/government organizations attend at no cost.
-- Confirm employer package prices and benefits before publishing them as final.
+- Confirm the exhibitor fees and Ground State, Excited State, and Entangled State sponsorship benefits from the new flyer are approved as final.
 - Confirm the event location text: `Trabant University Center, MPR A/B/C`.
 - Confirm the final sendoff location currently marked `TBD`.
 
@@ -16,17 +15,22 @@
 
 - Review the migrated QSES purpose statement on `site/index.html` and `site/about/index.html`.
 - Add member LinkedIn URLs if the current board wants them published.
-- Add final student-facing instructions for attending the career fair.
+- Add the final internal student Handshake registration URL.
+- Add the final external student Google Form registration URL.
 - Add employer-facing details for parking, unloading, check-in, and payment.
 - Add a final sponsor recognition policy and logo submission instructions.
 - Add final FAQ answers for cancellation, payment deadline, attendee limits, and table setup.
 - Decide whether to publish a list of attending employers once confirmed.
+- Add member research details to the new Research page.
+- Add fellowship opportunities and application guidance to the Funding page.
 - Replace placeholders with final wording after registration workflow is approved.
+- Confirm the public wording of Youssef El Gharably's Professional Development Director and GSG Senator titles.
 
 ## Design And Assets
 
 - Confirm the new QSES logo files in `site/assets/images/` are the preferred launch assets.
 - Confirm the header pairing of the QSES logo, UD monogram, and full society name is approved for launch.
+- Confirm the revised top-level navigation order: Home, Career Fair, Research, Contact.
 - Add meaningful event or campus imagery if approved for public use.
 - Review UD brand alignment for colors, logo usage, spacing, and tone.
 - Check all pages on mobile, tablet, and desktop widths.
@@ -34,6 +38,7 @@
 
 ## Technical Checks
 
+- Confirm the new top-level `CareerFair/` and `research/` routes work after deployment.
 - Validate all internal links.
 - Confirm external social links still work.
 - Run a local preview server and click through every page.

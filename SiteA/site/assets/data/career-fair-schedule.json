@@ -25,14 +25,9 @@
     "location": "MPR A/B"
   },
   {
-    "time": "2:00 - 3:00",
+    "time": "2:00 - 4:00",
     "event": "Poster session",
     "location": "MPR C"
-  },
-  {
-    "time": "3:00 - 4:00",
-    "event": "Lab tours",
-    "location": "Scattered labs"
   },
   {
     "time": "4:00 - 4:30",

@@ -20,8 +20,9 @@ Then visit `http://localhost:8000`.
 - `DESIGN_BREIF.md`: project brief.
 - `raw/`: supplied research, legacy pages, budgets, and event planning data.
 - `site/`: public static website scaffold.
-- `site/about/`: QSES Home, Members, Events, and Funding section pages.
-- `site/employers/`: employer-facing QSE Career Fair page, including schedule, packages, registration, and FAQ.
+- `site/about/`: About, Members, Events, and Funding section pages.
+- `site/research/`: member research page.
+- `site/CareerFair/`: combined employer- and student-facing QSE Career Fair page, including schedule, exhibitor fees, sponsorships, registration, and FAQ.
 - `site/assets/data/`: curated public data extracted from the raw materials.
 - `site/assets/css/styles.css`: shared visual system.
 - `site/assets/js/main.js`: small progressive enhancement script.

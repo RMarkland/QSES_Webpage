@@ -93,15 +93,40 @@ p {
   height: 38px;
 }
 
+.brand-text {
+  min-width: 0;
+}
+
 .brand strong {
   display: block;
-  max-width: 320px;
+  max-width: 360px;
+}
+
+.brand strong span {
+  display: block;
+  white-space: nowrap;
 }
 
 .brand small {
   color: var(--color-muted);
   display: block;
   font-size: 0.78rem;
+}
+
+.brand small a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-home,
+.brand-name {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand small a:hover,
+.brand small a:focus {
+  text-decoration: underline;
 }
 
 .site-nav {
@@ -262,6 +287,11 @@ p {
   color: var(--color-navy);
 }
 
+.button.tertiary {
+  background: var(--color-surface);
+  color: var(--color-navy);
+}
+
 .hero-panel,
 .card {
   background: var(--color-surface);
@@ -289,6 +319,20 @@ p {
 
 .hero-panel {
   padding: 28px;
+}
+
+.employer-hero .hero-panel {
+  text-align: center;
+}
+
+.employer-hero .panel-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.employer-hero .check-list {
+  display: inline-block;
+  text-align: left;
 }
 
 .panel-logo {
@@ -342,6 +386,19 @@ p {
 
 .card-grid.three {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.career-summary {
+  padding-bottom: clamp(28px, 4vw, 48px);
+  padding-top: clamp(36px, 5vw, 64px);
+}
+
+.career-summary + .career-summary {
+  padding-top: 12px;
+}
+
+.card-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .card {
@@ -440,6 +497,10 @@ p {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.stat-list-clean {
+  grid-template-columns: repeat(2, minmax(0, 280px));
+}
+
 .stat-list.compact {
   grid-template-columns: 1fr;
 }
@@ -465,6 +526,30 @@ p {
 .package.featured {
   border-color: var(--color-yellow);
   outline: 3px solid rgba(255, 210, 0, 0.25);
+}
+
+.package-note {
+  margin-top: 20px;
+}
+
+.sponsorship-heading {
+  margin-top: 64px;
+}
+
+.signup-card .button[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.student-registration,
+.student-registration .section-heading,
+.signup-card {
+  text-align: center;
+}
+
+.student-registration .section-heading {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timeline {
@@ -582,6 +667,7 @@ details p {
 
   .card-grid.two,
   .card-grid.three,
+  .card-grid.four,
   .event-meta,
   .stat-list,
   .steps {
@@ -601,6 +687,26 @@ details p {
   .site-header {
     align-items: flex-start;
     flex-wrap: wrap;
+  }
+
+  .brand-logo {
+    height: 36px;
+  }
+
+  .brand-logo.ud-logo {
+    height: 30px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-logos {
+    gap: 5px;
+  }
+
+  .brand strong {
+    font-size: 0.84rem;
   }
 
   .site-nav {

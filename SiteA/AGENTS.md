@@ -16,6 +16,7 @@ Read these first before making substantial content or layout changes:
 - `raw/QSE Career Fair Organizer - Itinerary.csv`: event schedule.
 - `raw/QSE Career Fair Organizer - Attendance Funds.csv`: proposed package prices and attendance assumptions.
 - `raw/QSE Career Fair Organizer - Fair Costs.csv`: budget, audience counts, and funding context.
+- `raw/UD Quantum Career Fair Sponsors and Exhibitors.pdf`: current public exhibitor fees, included amenities, and sponsorship tiers.
 - `raw/QSE Career Fair - Sheet1.csv`: employer prospect research. Treat emails and unpublished points of contact as private planning data; do not publish them on the site without explicit approval.
 - `raw/UDelaware_Employers.html`: University of Delaware visual and content tone reference.
 - `raw/UMaryland_CareerFair.html`, `raw/UMichigan_CareerFair.html`, `raw/UVirginia_CareerFair.html`: peer career fair and sponsorship structure references.
@@ -38,12 +39,12 @@ Keep the public site focused and easy to scan:
 - `site/about/index.html`: QSES Home page for the club section.
 - `site/about/members/index.html`: member and officer information.
 - `site/about/events/index.html`: QSES club events and accomplishments.
-- `site/about/funding/index.html`: funding needs, sponsorship context, and internal budget-facing public summaries.
-- `site/employers/index.html`: primary career fair landing page, including the fair schedule. Do not create a separate public career fair schedule page unless explicitly requested.
-- `site/students/index.html`: student-facing career fair and club participation page.
+- `site/research/index.html`: member research page, currently under construction.
+- `site/about/funding/index.html`: fellowship opportunities and application help, currently under construction.
+- `site/CareerFair/index.html`: primary career fair landing page for employers and students, including registration areas and the fair schedule. Do not create a separate public career fair schedule page unless explicitly requested.
 - `site/contact/index.html`: general contact and social links.
 
-Top-level navigation should stay restrained: `Home`, `Students`, `Employers`, and `Contact`. Put club subpages under the Home dropdown and employer career fair sections under the Employers dropdown.
+Top-level navigation should stay restrained: `Home`, `Career Fair`, `Research`, and `Contact`. Put About, Members, Events, and Funding under the Home dropdown, and all employer and student fair content under the Career Fair dropdown.
 
 ## Employer Landing Page Requirements
 The employer page must include, in this order unless there is a clear content reason to change it:
@@ -53,15 +54,15 @@ The employer page must include, in this order unless there is a clear content re
 3. Employer benefits.
 4. Employer package tiers.
 5. Schedule.
-6. Registration steps.
+6. Student registration and employer registration steps.
 7. FAQ.
 8. Final CTA.
 
-Primary CTA text: `Register Your Company`
+Primary employer CTA text: `Register Your Company`
 
 Secondary CTA text: `View Sponsorship Options`
 
-When the event date or registration link is unknown, use a visible placeholder such as `Date to be announced` or `Registration link coming soon` and list it in the handoff notes.
+When a registration link is unknown, use a visible placeholder such as `Registration link coming soon` and list it in `TODO.md`.
 
 ## Design Rules
 Follow the brief and UD employer page tone:
@@ -80,7 +81,7 @@ Follow the brief and UD employer page tone:
 Write for busy recruiters and technical hiring managers:
 
 - Lead with who attends, what employers get, what it costs, how to register, and what happens during the day.
-- Use concrete numbers from the CSVs when available: 150 target students, 15 faculty/staff, 22 company attendees, 187 full-scale total attendees, 17 target companies, and $350 standard participation unless updated.
+- Use the current public numbers: 150 target students and 15 companies. Use the exhibitor fees and sponsorship tiers from `raw/UD Quantum Career Fair Sponsors and Exhibitors.pdf`.
 - Make quantum relevance explicit: quantum computing, photonics, semiconductor skills, cryogenics, national labs, defense, software, electrical engineering, materials science, physics, and computer science.
 - Do not publish raw prospect emails or unconfirmed company commitments.
 - Mark unconfirmed details as `TBD`, `proposed`, or `coming soon` rather than making them sound final.
