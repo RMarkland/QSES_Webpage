@@ -6,7 +6,8 @@
 - Create or confirm the employer registration link, then update all `Register Your Company` CTAs.
 - Replace the employer registration placeholder and update the registration FAQ when the link is live.
 - Confirm the published member bios and headshots are approved by the current QSES board before launch.
-- Confirm the final public contact email or form for QSES and employer inquiries.
+- Confirm member email addresses and LinkedIn profile links are approved for public display.
+- Confirm Matt, Jackson, and Youssef as the final public officer contacts.
 - Confirm the exhibitor fees and Ground State, Excited State, and Entangled State sponsorship benefits from the new flyer are approved as final.
 - Confirm the event location text: `Trabant University Center, MPR A/B/C`.
 - Confirm the final sendoff location currently marked `TBD`.
@@ -29,9 +30,14 @@
 ## Design And Assets
 
 - Confirm the new QSES logo files in `site/assets/images/` are the preferred launch assets.
+- Confirm the large transparent QSES logo treatment on the About title section.
 - Confirm the header pairing of the QSES logo, UD monogram, and full society name is approved for launch.
 - Confirm the revised top-level navigation order: Home, Career Fair, Research, Contact.
-- Add meaningful event or campus imagery if approved for public use.
+- Confirm the new UD research/campus images and QSES slideshow photos are approved for public use.
+- Confirm the QSES dinner photo is approved for the Members title section.
+- Confirm the full-bleed dinner-photo treatment and title gradient on the Members page.
+- Confirm the QSES Monthly PDFs are approved for public publication and remain current.
+- Confirm the About page order: club slideshow before QSES Monthly.
 - Review UD brand alignment for colors, logo usage, spacing, and tone.
 - Check all pages on mobile, tablet, and desktop widths.
 - Confirm that text does not overflow buttons, cards, nav, or timeline rows.
